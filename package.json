@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "express": "^4.15.3",
+    "multiparty": "^4.1.3",
+    "request": "^2.81.0"
+  },
+  "name": "express-multiparty-related",
+  "description": "Sample express server that handles multipart/related data using multiparty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yickling/express-multiparty-related.git"
+  },
+  "keywords": [
+    "multipart",
+    "related",
+    "file",
+    "upload",
+    "express"
+  ],
+  "author": "yickling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yickling/express-multiparty-related/issues"
+  },
+  "homepage": "https://github.com/yickling/express-multiparty-related#readme"
+}
