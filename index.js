@@ -12,6 +12,16 @@ app.get('/', function (req, res) {
   res.end();
 });
 
+app.get('/v1/digital-accounts/enquire', function (req, res) {
+  console.error('++++++++HEADERS+++++++');
+  console.error(req.headers);
+  console.error('+++++++QUERY++++++++');
+  console.error(req.query);
+  console.error('+++++++++++++++');
+  res.send('ok');
+  res.end();
+});
+
 app.post('/testUpload', function (req, res) {
   const jsonPayload = { field1: 'one', field2: 2.0, field3: [{ field4: 'four'}] };
   const imagePath = './image.png';
